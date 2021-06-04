@@ -33,3 +33,7 @@ services:
      # - SMARTHOST_USER=fruit
      # - SMARTHOST_PASSWORD=happy_time
      # - SMARTHOST_ALIASES=*.tpigame.com
+networks: 
+  default: 
+    external: 
+      name: project-bridge 
